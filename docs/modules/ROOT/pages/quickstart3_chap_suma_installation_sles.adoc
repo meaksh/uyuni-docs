@@ -1,39 +1,6 @@
 [[quickstart3.chap.suma.installation.sles]]
 = {sls} Installation
-//Asciidoctor Front Matter
-:doctype: book
-:sectlinks:
-:icons: font
-:experimental:
-:sourcedir: .
-:imagesdir: images
-//System Architecture
-:zseries: z Systems
-:ppc: POWER
-:ppc64le: ppc64le
-:ipf : Itanium
-:x86: x86
-:x86_64: x86_64
-// Rhel
-:rhel: Red Hat Linux Enterprise
-:rhnminrelease6: Red Hat Enterprise Linux Server 6
-:rhnminrelease7: Red Hat Enterprise Linux Server 7
-//SUSE Manager
-:productname: Uyuni Uyuni
-:susemgr: SUSE Manager
-:susemgrproxy: SUSE Manager Proxy
-:productnumber: 3.2
-//SUSE, SLES and JeOS
-:sles-version: 12
-:sp-version: SP3
-:jeos: JeOS
-:scc: SUSE Customer Center
-:sls: SUSE Linux Enterprise Server
-:sle: SUSE Linux Enterprise
-:slsa: SLES
-:suse: SUSE
-
-
+include::_common-documents/entities.adoc[]
 
 This chapter provides the required KVM settings for installation of {sls} media as the base for {productname}.
 A kernel virtual machine KVM combined with Virtual Machine Manager ([command]``virt-manager``) will be used as a sandbox for this installation.

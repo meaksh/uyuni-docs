@@ -1,6 +1,6 @@
 name: uyuni
 title: Uyuni
-version: Master
+version: include-test
 start_page: ROOT:index
 nav:
   - modules/ROOT/nav-gs.adoc

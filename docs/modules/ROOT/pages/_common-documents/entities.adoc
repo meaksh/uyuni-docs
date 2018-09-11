@@ -1,5 +1,6 @@
 :grub: Grub
 :zseries: z Systems
+:zsystems: {zseries}
 :ppc: POWER
 :ppc64le: IBM Power PC
 :ipf : Itanium
@@ -46,7 +47,6 @@
 :vmhost: VM Host Server
 :xen: Xen
 :kvm: KVM
-:zsystems: {zseries}
 :linkattrs:
 :sectlinks:
 :icons: font

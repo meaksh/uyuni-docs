@@ -6,3 +6,7 @@ These docs are built using Antora and the playbook for building them is located 
 - https://gitlab.com/jcayouette/uyuni-playbook
 
 Follow the instructions on uyuni-playbook to generate the documentation site.
+
+Writeup coming soon!
+
+

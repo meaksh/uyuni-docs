@@ -1,19 +1,30 @@
 [[quickstart.chapt.overview.requirements]]
 = Introduction
+ifdef::env-github,backend-html5,backend-docbook5[]
+//Admonitions
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+// SUSE ENTITIES FOR GITHUB
+//System Architecture
 :zseries: z Systems
 :ppc: POWER
 :ppc64le: IBM Power PC
 :ipf : Itanium
 :x86: x86
 :x86_64: x86_64
+// Rhel
 :rhel: Red Hat Linux Enterprise
 :rhnminrelease6: Red Hat Enterprise Linux Server 6
 :rhnminrelease7: Red Hat Enterprise Linux Server 7
-:productname: Uyuni SUSE Manager
+:productname: SUSE Manager
 :susemgr: SUSE Manager
-:productname: Uyuni Uyuni
 :susemgrproxy: {productname} Proxy
 :productnumber: 3.2
+//SUSE, SLES and JeOS
+:productname:
 :sles-version: 12
 :sp-version: SP3
 :jeos: JeOS
@@ -22,20 +33,32 @@
 :sle: SUSE Linux Enterprise
 :slsa: SLES
 :suse: SUSE
+
+endif::[]
+//Asciidoctor Front Matter
 :doctype: book
 :sectnums:
 :sectlinks:
+:toc: left
 :icons: font
 :experimental:
+:sourcedir: .
+:imagesdir: images
+
+
 
 This Getting Started Guide provides guidance on setting up {productname} server with KVM.
 You will learn the fundamentals of managing both traditional and Salt clients.
 
 This guide is intended for system administrators.
 
+ifdef::env-github,backend-html5[]
+<<common_version_info.adoc#common-version-info, Version Info>>
+endif::[]
 
-include::_common-documents/common_version_info.adoc[leveloffset=1]
-
+ifndef::env-github[]
+include::common_version_info.adoc[leveloffset=1]
+endif::[]
 
 [[quickstart.sect.introduction]]
 == Introduction to {productname}

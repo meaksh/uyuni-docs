@@ -3,7 +3,7 @@
 
 :doctype: book
 :sectnums:
-
+:toc: left
 :icons: font
 :experimental:
 :imagesdir: images

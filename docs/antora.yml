@@ -1,9 +1,6 @@
 name: uyuni
 title: Uyuni
-version: Master
+version: maintenance/3.2
 start_page: ROOT:index
 nav:
-  - modules/ROOT/nav-gs.adoc
-  - modules/ROOT/nav-bp.adoc
-  - modules/ROOT/nav-ref.adoc
-  - modules/ROOT/nav-at.adoc
+  - modules/ROOT/nav.adoc

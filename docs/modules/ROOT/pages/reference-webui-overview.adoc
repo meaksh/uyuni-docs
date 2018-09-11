@@ -1,15 +1,24 @@
 [[ref.webui.overview]]
 = Overview and Navigation
+ifdef::env-github,backend-docbook5[]
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
 :susemgr: SUSE Manager
-:productname: Uyuni
-:webui: WebUI
+:productname:
+endif::[]
 :doctype: book
 :sectnums:
 :sectlinks:
+:toc: left
 :icons: font
 :experimental:
 :sourcedir: .
 :imagesdir: images
+
+
 
 [[ref.webui.overview.intro]]
 == Overview
@@ -26,7 +35,17 @@ Before logging in, select [guimenu]``About, to browse and search for available d
 You may reset your username and password from the menu:About[Lookup Login/Password] page.
 For more information, see <<ref.webui.overview.account>>.
 
-include::_common-documents/reference-webui-intro.adoc[leveloffset=1]
+ifdef::env-github[]
+[NOTE]
+====
+New to the {productname} {webui}? Scan through <<reference-webui-intro.adoc#_reference-webui-intro, Navigation>> to familiarize yourself with the layout and symbols used throughout this document.
+====
+endif::[]
+
+// Test this so make sure it works with daps!!
+ifndef::env-github[]
+include::reference-webui-intro.adoc[]
+endif::[]
 
 Login to the {productname} {webui} to view the menu:Main Menu[Home > Overview] page.
 The Overview page contains summary panes that provide important information about your systems.
@@ -97,7 +116,7 @@ The menu:Main Menu[Home > Notification Messages] page allows you to manage your 
 image::home_notification_messages.png[scaledwidth=80%]
 
 
-[[notification.messages.tabs]]
+
 === Notification Messages Tabs
 
 The [guimenu]``Notification Messages`` page displays two tabs:
@@ -108,7 +127,7 @@ The [guimenu]``Notification Messages`` page displays two tabs:
 These tabs contain a list of collected messages filtered by tab name.
 
 
-[[notification.messages.buttons]]
+
 === Notification Messages Buttons
 
 The following buttons are available for working with notification messages:
@@ -118,7 +137,7 @@ The following buttons are available for working with notification messages:
 * btn:[Mark all as Read] -- Mark all messages as read.
 
 
-[[notification.messages.legend]]
+
 === Notification Messages Legend
 
 Several columns provide information for each message:

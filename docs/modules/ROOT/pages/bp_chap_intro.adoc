@@ -1,21 +1,33 @@
 [[mgr.conceptual.overview]]
 = Introduction
+ifdef::env-github,backend-html5,backend-docbook5[]
+//Admonitions
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
 :linkattrs:
+// SUSE ENTITIES FOR GITHUB
+// System Architecture
 :zseries: z Systems
 :ppc: POWER
 :ppc64le: ppc64le
 :ipf : Itanium
 :x86: x86
 :x86_64: x86_64
+// Rhel Entities
 :rhel: Red Hat Enterprise Linux
 :rhnminrelease6: Red Hat Enterprise Linux Server 6
 :rhnminrelease7: Red Hat Enterprise Linux Server 7
-:productname: Uyuni
+// SUSE Manager Entities
+:productname:
 :susemgr: SUSE Manager
 :susemgrproxy: SUSE Manager Proxy
 :productnumber: 3.2
 :saltversion: 2018.3.0
 :webui: WebUI
+// SUSE Product Entities
 :sles-version: 12
 :sp-version: SP3
 :jeos: JeOS
@@ -26,8 +38,11 @@
 :suse: SUSE
 :ay: AutoYaST
 :ncc: Novell Customer Center
+endif::[]
+// Asciidoctor Front Matter
 :doctype: book
 :sectlinks:
+:toc: left
 :icons: font
 :experimental:
 :sourcedir: .
@@ -36,13 +51,20 @@
 
 This document targets system administrators.
 
-[[bp-what-is-covered]]
+
+
 == What's Covered in this Guide?
 
 This document describes {suse} recommended best practices for {productname}.
 This information has been collected from a large number of successful {productname} real world implementations and includes feedback provided by product management, sales and engineering.
 
+ifndef::env-github,backend-html5[]
 include::common_version_info.adoc[leveloffset=2]
+endif::[]
+
+ifdef::env-github,backend-html5[]
+<<common_version_info.adoc#common-version-info, Version Information>>
+endif::[]
 
 This chapter will discuss the following topics:
 
@@ -51,7 +73,7 @@ This chapter will discuss the following topics:
 * Hardware Requirements
 
 
-[[bp-prerequisites]]
+
 == Prerequisites
 
 .Purchased Registration Keys
@@ -204,7 +226,6 @@ It should be noted you will lose redirection.
 Keep in mind you will need additional ports open when using traditional clients in combination with [systemitem]``osad`` (XMPP TCP 5222).
 ====
 
-[[bp-hardware-recommendations]]
 == Hardware Recommendations
 
 This section provides tested production recommendations for small to mid size networks that will be managed by {productname}.

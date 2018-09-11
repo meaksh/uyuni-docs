@@ -1,12 +1,13 @@
 [[preparing.and.registering.clients]]
 = Registering Clients
-// Asciidoctor Front Matter
-:doctype: book
-:sectlinks:
-:icons: font
-:experimental:
-:sourcedir: .
-:imagesdir: images
+ifdef::env-github,backend-html5,backend-docbook5[]
+//Admonitions
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
+// SUSE ENTITIES FOR GITHUB
 // System Architecture
 :zseries: z Systems
 :ppc: POWER
@@ -19,7 +20,7 @@
 :rhnminrelease6: Red Hat Enterprise Linux Server 6
 :rhnminrelease7: Red Hat Enterprise Linux Server 7
 // SUSE Manager Entities
-:productname: Uyuni
+:productname:
 :susemgr: SUSE Manager
 :susemgrproxy: SUSE Manager Proxy
 :productnumber: 3.2
@@ -33,7 +34,15 @@
 :sle: SUSE Linux Enterprise
 :slsa: SLES
 :suse: SUSE
-
+endif::[]
+// Asciidoctor Front Matter
+:doctype: book
+:sectlinks:
+:toc: left
+:icons: font
+:experimental:
+:sourcedir: .
+:imagesdir: images
 
 == Introduction
 

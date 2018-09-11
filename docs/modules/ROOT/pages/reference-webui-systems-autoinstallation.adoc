@@ -1,5 +1,12 @@
 [[ref.webui.systems.autoinst]]
 = Autoinstallation
+ifdef::env-github,backend-html5,backend-docbook5[]
+//Admonitions
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
 :linkattrs:
 // SUSE ENTITIES FOR GITHUB
 // System Architecture
@@ -15,7 +22,7 @@
 :rhnminrelease6: Red Hat Enterprise Linux Server 6
 :rhnminrelease7: Red Hat Enterprise Linux Server 7
 // SUSE Manager Entities
-:productname: Uyuni
+:productname:
 :susemgr: SUSE Manager
 :susemgrproxy: SUSE Manager Proxy
 :productnumber: 3.2
@@ -32,8 +39,11 @@
 :suse: SUSE
 :ay: AutoYaST
 :kickstart: Kickstart
+endif::[]
+// Asciidoctor Front Matter
 :doctype: book
 :sectlinks:
+:toc: left
 :icons: font
 :experimental:
 :sourcedir: .

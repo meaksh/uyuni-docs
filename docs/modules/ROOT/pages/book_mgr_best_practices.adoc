@@ -1,7 +1,9 @@
 [[book.suma.best.practices]]
 = Best Practices
+
 :doctype: book
 :sectnums:
+:toc: left
 :icons: font
 :experimental:
 :imagesdir: ./images

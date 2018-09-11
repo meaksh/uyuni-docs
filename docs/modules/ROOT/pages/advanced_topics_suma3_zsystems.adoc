@@ -1,6 +1,15 @@
 [[art.suma.install.zsystems]]
 = {susemgr} on IBM {zseries}
+ifdef::env-github,backend-html5,backend-docbook5[]
+//Admonitions
+:tip-caption: :bulb:
+:note-caption: :information_source:
+:important-caption: :heavy_exclamation_mark:
+:caution-caption: :fire:
+:warning-caption: :warning:
 :linkattrs:
+// SUSE ENTITIES FOR GITHUB
+// System Architecture
 :zseries: z Systems
 :ppc: POWER
 :ppc64le: ppc64le
@@ -16,7 +25,7 @@
 :saltversion: 2018.3.0
 :webui: WebUI
 // SUSE Product Entities
-:productname: Uyuni
+:productname:  
 :sles-version: 12
 :sp-version: SP3
 :jeos: JeOS
@@ -26,10 +35,11 @@
 :slsa: SLES
 :suse: SUSE
 :ay: AutoYaST
+endif::[]
 // Asciidoctor Front Matter
 :doctype: book
 :sectlinks:
-
+:toc: left
 :icons: font
 :experimental:
 :sourcedir: .

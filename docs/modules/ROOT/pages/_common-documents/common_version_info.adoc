@@ -1,10 +1,8 @@
 [[version-info]]
 = Version Information
-:productname: Uyuni Uyuni
-:susemgrproxy: {productname} Proxy
-:productnumber: 3.2
-:icons: font
-:experimental:
+
+include::entities.adoc[]
+
 
 == {productname} Version Information
 

@@ -1,32 +1,8 @@
 [[quickstart.chapt.overview.requirements]]
 = Introduction
-:zseries: z Systems
-:ppc: POWER
-:ppc64le: IBM Power PC
-:ipf : Itanium
-:x86: x86
-:x86_64: x86_64
-:rhel: Red Hat Linux Enterprise
-:rhnminrelease6: Red Hat Enterprise Linux Server 6
-:rhnminrelease7: Red Hat Enterprise Linux Server 7
-:productname: Uyuni SUSE Manager
-:susemgr: SUSE Manager
-:productname: Uyuni Uyuni
-:susemgrproxy: {productname} Proxy
-:productnumber: 3.2
-:sles-version: 12
-:sp-version: SP3
-:jeos: JeOS
-:scc: SUSE Customer Center
-:sls: SUSE Linux Enterprise Server
-:sle: SUSE Linux Enterprise
-:slsa: SLES
-:suse: SUSE
-:doctype: book
-:sectnums:
-:sectlinks:
-:icons: font
-:experimental:
+
+include::_common-documents/entities.adoc[]
+
 
 This Getting Started Guide provides guidance on setting up {productname} server with KVM.
 You will learn the fundamentals of managing both traditional and Salt clients.

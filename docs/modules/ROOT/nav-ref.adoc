@@ -39,7 +39,6 @@
 **** xref:reference-webui-systems.adoc#ref.webui.systems.systems.currency[System Currency]
 **** xref:reference-webui-systems.adoc#ref.webui.systems.systems.types[System Types]
 *** xref:reference-webui-systems.adoc#s3-sm-system-details[System Details]
-
 ** xref:reference-webui-salt.adoc#ref-salt[Salt]
 ** xref:reference-webui-images.adoc#ref-images[Images]
 ** xref:reference-webui-patches.adoc#ref-patches[Patches]

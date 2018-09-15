@@ -11,16 +11,16 @@ before_install:
 - git clone https://github.com/uyuni-project/uyuni-docs
 - cd uyuni-docs/
 - git checkout gh-pages
-- rm -rf uyuni/ia-rework/*
+- rm -rf uyuni/ia-rework
 - git clone https://github.com/uyuni-project/uyuni-docs-publisher
 - cd uyuni-docs-publisher
 - docker pull antora/antora
 - docker images
 - docker run -u $UID -v `pwd`:/antora --rm -t antora/antora --cache-dir=./.cache/antora uyuni-publisher.yml
-- cp -r public/uyuni/ia-rework/* ../uyuni/
+- cp -r public/uyuni/ia-rework ../uyuni/
 - cd ../
 - git remote rm origin
-- git remote add origin https://${GITHUB_TOKEN}d@github.com/uyuni-project/uyuni-docs.git 
+- git remote add origin https://${GITHUB_TOKEN}@github.com/uyuni-project/uyuni-docs.git 
 - git add .
 - git commit -am "New travis commit to ia-rework"
 - git push --set-upstream origin gh-pages

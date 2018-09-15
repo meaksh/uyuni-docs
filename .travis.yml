@@ -20,10 +20,9 @@ before_install:
 - cp -r public/uyuni/3.2 ../uyuni/3.2
 - cd ../
 - git remote rm origin
-- git remote add origin https://${GITHUB_TOKEN}@github.com/uyuni-project/uyuni-docs.git origin/gh-pages
+- git remote add origin https://${GITHUB_TOKEN}@github.com/uyuni-project/uyuni-docs.git gh-pages
 - git checkout gh-pages
 - git pull
 - git add .
 - git commit -am "New travis commit to maintenance/3.2"
 - git push
-- pwd

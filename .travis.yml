@@ -21,6 +21,6 @@ before_install:
 - cd ../../
 - pwd
 - git status
-- git .add
+- git add .
 - git commit -am "TravisCI gh-pages Update to 3.2"
 - git push

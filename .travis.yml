@@ -23,6 +23,7 @@ before_install:
 - cd ../
 - git remote rm origin
 - git remote add origin https://uyuni-project:$GITHUB_API_KEY@github.com/uyuni-docs.git
+- git push --set-upstream origin gh-pages
 - git add .
 - git commit -am "New travis commit to 3.2"
 - git push

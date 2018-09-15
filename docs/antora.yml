@@ -1,6 +1,6 @@
 name: uyuni
 title: Uyuni
-version: '3.2'
+version: '3.2-maint'
 start_page: ROOT:index
 nav:
   - modules/ROOT/nav.adoc

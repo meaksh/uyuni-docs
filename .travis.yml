@@ -25,3 +25,4 @@ before_install:
 - git add .
 - git commit -am "New travis commit to 3.2"
 - git push --set-upstream origin gh-pages
+- pwd

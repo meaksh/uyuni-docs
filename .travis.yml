@@ -21,7 +21,7 @@ before_install:
 - cp -r public/uyuni/ia-rework ../uyuni/
 - cd ../
 - git remote rm origin
-- git remote add origin https://${GITHUB_TOKEN}@github.com/uyuni-project/uyuni-docs.git 
+- git remote add origin https://${GITHUB_TOKEN}@github.com/uyuni-project/uyuni-docs.git -m gh-pages
 - git add .
 - git commit -am "New travis commit to ia-rework"
 - git push --set-upstream origin gh-pages

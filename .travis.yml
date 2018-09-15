@@ -24,6 +24,6 @@ before_install:
 - git branch --set-upstream origin gh-pages
 - git pull
 - git add .
-- git commit -am "New travis commit to Master"
+- git commit -am "New travis commit to maintenance/3.2"
 - git push
 - pwd

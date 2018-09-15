@@ -1,14 +1,17 @@
 sudo: required
 language: generic
 services:
-  - docker
+- docker
 env:
   global:
-    - git config --global user.email "jcayouette@suse.com"
-    - git config --global user.name "jcayouette"
-    #- secure: GwQVxM/Jw0mkb/7pdlNbAfEh1zmM2stcdHtP3dw9J0TNHA1xs6aUNHN4XOZjIvs6Gw44lXklBSPtGDKGK+g9ihGOEQzoXI+vGH3S74gW/z8bihiHTCAh5ARIJJLIDHa4FmLyqzN/yN9SkCsMw0ZUs2RMiKk5/9NecuovSn952CCQlWRVYpZFjkoyzaidvtSHYKv95Us8EDESLI6Go1aL2z+mREhF8wXDyMAGRhNAdyW5WooQygGtpGml+BoNGf2OgR1lg8PC28xxMhghNnvqzW6y2Ssou3fxzUYUJbE2MwGxneOo6nEJbna7zt7Pk30QC1zIma7kRFyJVaciOgNezXnW/R6REVkiZx9eSJO5AzKtUxdn7ErPfdoNskNhax3PzWym9ve441hkgJLqD5B+HXnFF3te88lepLlJR5znkuQhI/+cBnq8WUqMRo0QGtazMQJJ3hvs4Rsv7wNxyQhTkrdjry+8sIxt8uEpbzWeHC6BaGt1KbUpfOaS4l36o4x/8xojR3GV3M+GZH2n3uNErNNlvIKZ8Qq+yrvbAVj4662cq61T9d0YxPU74IJtHTvIP2E0zjgRMJMzd2KEMQSlMo9fsets4dllyPg4ttfdFhA+OO+Y10TI+a1/ePKVwyc0sI7rQeHgXdSYpDSzq0gjQGsHuJPZYLBrN4pJO7V8wrY=
+  - git config --global user.email "jcayouette@suse.com"
+  - git config --global user.name "jcayouette"
+  - secure: "-F:¯ôC/\\üç<¢}.b\tp¹èCO"
+  - secure: IgFBooIUFGMymM+/pFjaMlDH5vffHjXyGByBeyMRhJCvBwjK8KvFE6t/YXWk1er7UIeGA77NLiYFM2C3cXLHlAISZ8kjRhliaE5Hu72q3UYjOQBjfcbonghQCb19rU7HjT8bKQjQnKwqXuaZ7zzfe11OVLds5wImCcpnGBKMCb1H30UUPn1zwYKvyVxXew7KYvzfgPz1I07ba2/ceTDDGX/9p1qI19uQfNe+6uHq9U1J6V2abK5YFpuCRfm8JTcwdoAXMuiEZlYXvZFKVDWVYGL9UL24785wkMlE2U0TcDjEaZmWvBIx3o2l246adS/QfJbC1LQ+YeCf5+ntiqq+602yROuvNIZ7D2czQQiI66wpOe93WwaB7KnCY+iPOt9fy4YYx+vB0x+0r1+Qyj/pObt+5AbIWsFTPlQh9SXcQ8sB4oxKUciy6uwepyzBzJIXxM6wUiwV5s3hMoMX0ssoyOgk8c//YJ8Cefsyn/1rwlaedFjaduk2a/tXhjkhbFhsOxRrwVdBotALxvzRCdFT4Dobvy+qt9KCB7IadHU8pmi1kCkL64/5E+VvoTuZojhiT7PtEfSMZ5teox9ANqH1YtQn0n7iGnt5nyXrDg5dnAoDDWz5UN87RiCr0pCmvZx9C1a5tm6KWXYxr/A84PT5oZEY7B3lano3LpIu8WJ/MD0=
+  - secure: I6BAlPVdJN4PV21Fmf9rb69jxg199X/mJdpfYOzxJdsN37elsgH78ZbDK532sZZiNSmmqdIHz1nAANORTDHu4WF6eRdvq/V9R6rt9HfKKyAQW13QCaaudnlRsLVJso0Z5whwqc50UiEkWoiOPli8wiTAmXT96hLfxKofOkXfcY4R95azYw97KAJAVoQduvFBclTlGP1t/rR9GCaXPFFHRnEnAn0QYSFN4iunu52PkVXFPcwLG7tTlBXBpI0ZQvZMx1aPeqCiToClpPQJg4TVhtXD6BmFIBn1x7HF7kI2fjm6W2EF4cKSdvsk4Wua+yMLw1x7Of9ge9NzQPTsm4lRNEz3srkYAhqWcRN0oX+tCKRYr57BBeHHvU2zt0pcnsIzfRYQD7bgzjd4RqUK+lpO7SAwqfU3zlu/gLAZt46jp7TY0+IwPEMvd/m3xD5+d9gqG/XYOxCmJ514h2wEir0A/sUbwfGkTrtXTmsx+q5u7OEiUVRBvaBBJD7Sle/REMA7sta5NRZ527BE8fifexUZ3aYou1NcpoNNIlNbXjx9ROb+8Y1eo38DnaZtj97jRCRqOd9RHpMGox0Sy8XakcshBkURv8BKhcuzyZIB6YVBYVpdlODqcyuyBpiZW8B7xhE2zRguZjTIn0iMp7A/qZs25K1SCYMrr/6j7XLdRrCOF1Y=
 before_install:
-- openssl aes-256-cbc -K $encrypted_9aac5e0d1c2b_key -iv $encrypted_9aac5e0d1c2b_iv -in super_secret.txt.enc -out super_secret.txt -d
+- openssl aes-256-cbc -K $encrypted_9aac5e0d1c2b_key -iv $encrypted_9aac5e0d1c2b_iv
+  -in super_secret.txt.enc -out super_secret.txt -d
 - git clone https://github.com/uyuni-project/uyuni-docs
 - cd uyuni-docs/
 - git checkout gh-pages
@@ -17,7 +20,8 @@ before_install:
 - cd uyuni-docs-publisher
 - docker pull antora/antora
 - docker images
-- docker run -u $UID -v `pwd`:/antora --rm -t antora/antora --cache-dir=./.cache/antora uyuni-publisher.yml
+- docker run -u $UID -v `pwd`:/antora --rm -t antora/antora --cache-dir=./.cache/antora
+  uyuni-publisher.yml
 - cp -r public/uyuni/3.2/* ../uyuni/
 - cd ../
 - git remote rm origin

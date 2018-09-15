@@ -20,7 +20,7 @@ before_install:
 - docker images
 - docker run -u $UID -v `pwd`:/antora --rm -t antora/antora --cache-dir=./.cache/antora uyuni-publisher.yml
 - cp -r public/uyuni/3.2/* ../uyuni/
-- cd ../../
+- cd ../
 - pwd
 - git status
 - pwd

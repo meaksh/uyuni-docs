@@ -11,13 +11,12 @@ before_install:
 - git clone https://github.com/uyuni-project/uyuni-docs
 - cd uyuni-docs/
 - git checkout gh-pages
-- rm -rf *
+- rm -rf uyuni/3.2/*
 - git clone https://github.com/uyuni-project/uyuni-docs-publisher
 - cd uyuni-docs-publisher
 - docker pull antora/antora
 - docker images
 - docker run -u $UID -v `pwd`:/antora --rm -t antora/antora --cache-dir=./.cache/antora uyuni-publisher.yml
-- ls -a public/; pwd
-- cp -r public/* ../../
-- cd ..
+- cp -r public/uyuni/3.2/* ../../uyuni/
+- cd ../../
 - pwd

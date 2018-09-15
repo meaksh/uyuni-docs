@@ -21,7 +21,8 @@ before_install:
 - cd ../
 - git remote rm origin
 - git remote add origin https://${GITHUB_TOKEN}@github.com/uyuni-project/uyuni-docs.git -m gh-pages
+- fetch
 - git add .
 - git commit -am "New travis commit to Master"
 - git push --set-upstream origin gh-pages
-- pwd
+

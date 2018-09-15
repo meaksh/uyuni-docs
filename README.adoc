@@ -1,5 +1,7 @@
 = Uyuni Documentation Content Repository
 
+image:https://travis-ci.org/uyuni-project/uyuni-docs.svg?branch=include-test["Build Status", link="https://travis-ci.org/uyuni-project/uyuni-docs"]
+
 This is the content repository for the Uyuni documentation site.
 These docs are built using the antora static site generator.
 Antora utilizes a _playbook_ for building documentation.

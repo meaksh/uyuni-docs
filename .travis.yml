@@ -11,7 +11,6 @@ before_install:
 - git clone https://github.com/uyuni-project/uyuni-docs
 - cd uyuni-docs/
 - git checkout gh-pages
-- git pull
 - rm -rf uyuni/include-test
 - git clone https://github.com/uyuni-project/uyuni-docs-publisher
 - cd uyuni-docs-publisher
@@ -21,7 +20,7 @@ before_install:
 - cp -r public/uyuni/include-test ../uyuni/
 - cd ../
 - git remote rm origin
-- git remote add origin https://${GITHUB_TOKEN}@github.com/uyuni-project/uyuni-docs.git
+- git remote add origin https://${GITHUB_TOKEN}@github.com/uyuni-project/uyuni-docs.git -m gh-pages
 - git add .
 - git commit -am "New travis commit to Master"
 - git push --set-upstream origin gh-pages

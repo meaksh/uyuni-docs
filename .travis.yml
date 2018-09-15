@@ -24,4 +24,4 @@ before_install:
 - git fetch
 - git add .
 - git commit -am "New travis commit to maintenance/3.2"
-- git push
+- git push --set-upstream origin gh-pages

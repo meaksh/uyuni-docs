@@ -11,7 +11,7 @@ before_install:
 - git clone https://github.com/uyuni-project/uyuni-docs
 - cd uyuni-docs/
 - git checkout gh-pages
-- rm -rf uyuni/3.2/*
+- rm -rf uyuni/3.2
 - git clone https://github.com/uyuni-project/uyuni-docs-publisher
 - cd uyuni-docs-publisher
 - docker pull antora/antora

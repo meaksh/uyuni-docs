@@ -20,3 +20,7 @@ before_install:
 - cp -r public/uyuni/3.2/* ../uyuni/
 - cd ../../
 - pwd
+- git status
+- git .add
+- git commit -am "TravisCI gh-pages Update to 3.2"
+- git push

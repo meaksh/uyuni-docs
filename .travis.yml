@@ -20,4 +20,3 @@ before_install:
 - ls -a public/; pwd
 - cp -r public/* ../../
 - cd ..
-- pwd

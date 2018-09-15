@@ -21,7 +21,7 @@ before_install:
 - cp -r public/uyuni/3.2/* ../uyuni/
 - cd ../
 - git remote rm origin
-- git remote add origin https://jcayouette:$encrypted_9aac5e0d1c2b_key@github.com/uyuni-project/uyuni-docs.git
+- git remote add origin https://jcayouette:$encrypted_9aac5e0d1c2b_iv@github.com/uyuni-project/uyuni-docs.git
 - git add .
 - git commit -am "New travis commit to 3.2"
 - git push --set-upstream origin gh-pages

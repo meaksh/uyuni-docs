@@ -10,10 +10,12 @@ env:
 before_install:
 - git clone https://github.com/uyuni-project/uyuni-docs
 - cd uyuni-docs/
+- pwd
 - git checkout gh-pages
 - rm -rf uyuni/3.2/*
 - git clone https://github.com/uyuni-project/uyuni-docs-publisher
 - cd uyuni-docs-publisher
+- pwd
 - docker pull antora/antora
 - docker images
 - docker run -u $UID -v `pwd`:/antora --rm -t antora/antora --cache-dir=./.cache/antora uyuni-publisher.yml
@@ -21,6 +23,7 @@ before_install:
 - cd ../../
 - pwd
 - git status
+- pwd
 - git add .
 - git commit -am "TravisCI gh-pages Update to 3.2"
 - git push

@@ -45,7 +45,7 @@ endif::[]
 :sourcedir: .
 :imagesdir: images
 
-Yet another pr
+Hello world!
 
 This Getting Started Guide provides guidance on setting up {productname} server with KVM.
 You will learn the fundamentals of managing both traditional and Salt clients.

@@ -66,29 +66,30 @@ ifndef::env-github,backend-html5[]
 include::common_intro_available_doc_i.adoc[leveloffset=1]
 endif::[]
 
-ifdef::env-github,backend-html5[]
-<<common_intro_available_doc_i.adoc#intro_available_doc, Available Documentation>>
-endif::[]
+//ifdef::env-github,backend-html5[]
+//<<common_intro_available_doc_i.adoc#intro_available_doc, Available Documentation>>
+//endif::[]
 
 
 ifndef::env-github,backend-html5[]
-include::common_intro_feedback_i.adoc[leveloffset=1]
+include::_common-documents/common_intro_feedback_i.adoc[leveloffset=1]
 endif::[]
-ifdef::env-github,backend-html5[]
-<<common_intro_feedback_i.adoc#intro_feedback, Feedback>>
-endif::[]
+//ifdef::env-github,backend-html5[]
+//<<common_intro_feedback_i.adoc#intro_feedback, Feedback>>
+//endif::[]
 
 ifndef::env-github,backend-html5[]
-include::common_intro_typografie_i.adoc[leveloffset=1]
+include::_common-documents/common_intro_typografie_i.adoc[leveloffset=1]
 endif::[]
-ifdef::env-github,backend-html5[]
-<<common_intro_typografie_i.adoc#intro_typografie, Documentation Conventions>>
-endif::[]
+//ifdef::env-github,backend-html5[]
+//<<common_intro_typografie_i.adoc#intro_typografie, Documentation Conventions>>
+//endif::[]
 
 ifndef::env-github,backend-html5[]
-include::common_intro_typografie_suma.adoc[leveloffset=1]
+include::_common-documents/common_intro_typografie_suma.adoc[leveloffset=1]
 endif::[]
-ifdef::env-github,backend-html5[]
-<<common_intro_typografie_suma.adoc#intro_typografie_suma, Documentation
-Conventions SUSE Manager>>
-endif::[]
+
+//ifdef::env-github,backend-html5[]
+//<<common_intro_typografie_suma.adoc#intro_typografie_suma, Documentation
+//Conventions SUSE Manager>>
+//endif::[]

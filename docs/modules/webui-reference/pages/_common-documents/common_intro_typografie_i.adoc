@@ -1,7 +1,7 @@
 [[ref-webui-documentation-conventions]]
 = Documentation Conventions
 
-include::_common-documents/entities.adoc[]
+include::entities.adoc[]
 
 
 The following typographical conventions are used in this manual:

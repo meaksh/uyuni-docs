@@ -1,7 +1,7 @@
 [[ref-webui-intro-feedback]]
 = Feedback
 
-include::_common-documents/entities.adoc[]
+include::entities.adoc[]
 
 Several feedback channels are available:
 

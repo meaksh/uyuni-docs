@@ -1,7 +1,7 @@
 [[ref-webui-special-documentation-conventions]]
 = Special {productname} Documentation Conventions
 
-include::_common-documents/entities.adoc[]
+include::entities.adoc[]
 
 
 

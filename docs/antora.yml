@@ -6,5 +6,5 @@ nav:
   - modules/getting-started/nav-gs.adoc
   - modules/saltlab/nav-saltlab.adoc
   - modules/ROOT/nav-bp.adoc
-  - modules/ROOT/nav-ref.adoc
+  - modules/webui-reference/nav-ref.adoc
   - modules/ROOT/nav-at.adoc

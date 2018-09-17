@@ -3,7 +3,7 @@ title: Uyuni
 version: ia-rework
 start_page: ROOT:index
 nav:
-  - modules/getting-started-guide/nav-gs.adoc
+  - modules/getting-started/nav-gs.adoc
   - modules/ROOT/nav-bp.adoc
   - modules/ROOT/nav-ref.adoc
   - modules/ROOT/nav-at.adoc

@@ -6,9 +6,6 @@
 *** xref:reference-intro.adoc#ref-webui-intro-feedback[Provide Feedback]
 *** xref:reference-intro.adoc#ref-webui-documentation-conventions[Documentation Conventions]
 *** xref:reference-intro.adoc#ref-webui-special-documentation-conventions[Uyuni Documentation Conventions]
-
-
-// Overview and Nav
 ** xref:reference-webui-overview.adoc[Overview and Navigation]
 *** xref:reference-webui-overview.adoc#ref.webui.overview.intro[Overview]
 *** xref:reference-webui-overview.adoc#ref.webui.overview.notifications[Notification Messages]
@@ -25,7 +22,6 @@
 **** xref:reference-webui-overview.adoc#ref.webui.overview.org.config[Configuration]
 **** xref:reference-webui-overview.adoc#ref.webui.overview.org.trust[Organization Trusts]
 **** xref:reference-webui-overview.adoc#ref.webui.overview.org.cfgch[Configuration Channels]
-// Systems
 ** xref:reference-webui-systems.adoc [Systems]
 *** xref:reference-webui-systems.adoc#ref.webui.systems.systems.intro[System Conventions]
 *** xref:reference-webui-systems.adoc#ref.webui.systems.overview[Systems Overview]

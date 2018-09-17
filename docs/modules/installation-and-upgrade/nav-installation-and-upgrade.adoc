@@ -1,5 +1,4 @@
-// Best Practices
-* Best Practices
+* Installation and Upgrade
 ** xref:bp_chap_intro.adoc[Introduction]
 *** xref:bp_chap_intro.adoc#bp-what-is-covered[What is Covered?]
 *** xref:bp_chap_intro.adoc#bp-prerequisites[Prerequisites]

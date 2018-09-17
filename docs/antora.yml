@@ -4,7 +4,7 @@ version: ia-rework
 start_page: ROOT:index
 nav:
   - modules/getting-started/nav-gs.adoc
-  - modules/ROOT/nav-bp.adoc
-  - modules/webui-reference/nav-ref.adoc
+  - modules/ROOT/nav-installation-and-upgrade.adoc
   - modules/ROOT/nav-at.adoc
+  - modules/webui-reference/nav-ref.adoc
   - modules/saltlab/nav-saltlab.adoc

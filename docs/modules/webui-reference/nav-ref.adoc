@@ -1,11 +1,11 @@
 // WebUI reference
 * WebUI Reference
 ** xref:reference-intro.adoc#ref-introduction[About This Guide]
-*** xref:eference-intro.adoc#version-info[Version Information]
-*** xref:eference-intro.adoc#ref-webui-available-documentation[Available Documentation]
+*** xref:reference-intro.adoc#version-info[Version Information]
+*** xref:reference-intro.adoc#ref-webui-available-documentation[Available Documentation]
 *** xref:reference-intro.adoc#ref-webui-intro-feedback[Provide Feedback]
-*** xref:eference-intro.adoc#ref-webui-documentation-conventions[Documentation Conventions]
-*** xref:eference-intro.adoc#ref-webui-special-documentation-conventions[Uyuni Documentation Conventions]
+*** xref:reference-intro.adoc#ref-webui-documentation-conventions[Documentation Conventions]
+*** xref:reference-intro.adoc#ref-webui-special-documentation-conventions[Uyuni Documentation Conventions]
 
 
 // Overview and Nav

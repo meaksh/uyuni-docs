@@ -34,7 +34,7 @@ Although this manual reflects the most current information possible, read the [r
 The release notes can be found at http://www.suse.com/documentation/suse-manager-3/[SUSE Manager Release Notes,window="_blank"].
 ====
 
-include::common_intro_available_doc_i.adoc[leveloffset=1]
+include::_common-documents/common_intro_available_doc_i.adoc[leveloffset=1]
 
 //ifdef::env-github,backend-html5[]
 //<<common_intro_available_doc_i.adoc#intro_available_doc, Available Documentation>>
